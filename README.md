@@ -26,6 +26,10 @@ Our vision for the Ultimate EV Mapper includes providing users with precise navi
 
 ## Path Finding
 
+Pathfinding is a fundamental aspect of the Ultimate EV Mapper, as it allows users to find the most efficient routes between various points of interest. The ability to navigate effectively is especially crucial for electric vehicle users, who need to consider factors such as charging station locations and battery range. Our pathfinding system leverages advanced algorithms to ensure optimal routing, taking into account real-time data and user preferences.
+
+
+
 ### Algorithms
 
 Our pathfinding algorithm is based on the A* search algorithm, which provides efficient and optimal routing. The algorithm was implemented in milestone 2, which expands on the basic functionalities set up in milestone 1.
@@ -139,7 +143,5 @@ The Ultimate EV Mapper aims to revolutionize the way electric vehicle users navi
 
 
 ## References
-
-For a complete list of references and further reading, please see the last page of the PDF.
 
 Thank you for visiting our repository!
