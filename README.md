@@ -111,9 +111,8 @@ Users can view categorized points of interest along their routes, enhancing the 
 
 We implemented a multi-Dijkstra algorithm for the travelling courier feature, which optimizes multiple delivery routes simultaneously. This complex feature is handled in `m4.cpp` and `m4_new.cpp`.
 
-![Multi Dijkstra Algorithm](images/multi_dijkstra_algorithm.png)  
-*Figure 24: Code snippet of multi-Dijkstra algorithm*  
-*(Page 28)*
+![Multi Dijkstra Algorithm](images/multi.png)  
+*Code snippet of multi-Dijkstra algorithm*  
 
 ## Comparisons and Future Plans
 
@@ -122,8 +121,7 @@ We implemented a multi-Dijkstra algorithm for the travelling courier feature, wh
 We compared our pathfinding algorithms with those used by competitors like Google Maps and Waze. The comparison highlights the strengths of our approach, particularly in terms of EV-specific features.
 
 ![Comparison table between our competitors and our map](images/comparison_table.png)  
-*Table 3: Comparison table between our competitors and our map*  
-*(Page 32)*
+*Comparison table between our competitors and our map*  
 
 ### Future Plans
 
@@ -134,37 +132,11 @@ Our future plans include integrating more real-time data sources and improving u
 3. **POI Reviews**: Incorporate reviews for points of interest, similar to Google Maps.
 4. **Crowd Sourced Data**: Use crowd-sourced data to provide information on speed cams, construction, and other road conditions.
 
-![Future Plans](images/future_plans.png)  
-*Figure 25: PlugShare and Figure 26: Our Map*  
-*(Page 34)*
-
-![Waze Live Traffic](images/waze_traffic.png)  
-*Figure 27: Waze Live Traffic*  
-*(Page 35)*
-
-![Google Map POI Reviews](images/google_map_poi.png)  
-*Figure 28: Google Map POI Reviews and Figure 29: Our POIs*  
-*(Page 36)*
-
-![Waze Live Notifications](images/waze_notifications.png)  
-*Figure 30: Waze Live Notifications*  
-*(Page 37)*
 
 ## Conclusion
 
 The Ultimate EV Mapper aims to revolutionize the way electric vehicle users navigate and plan their trips by providing real-time data, accurate routing, and a host of additional features to enhance the user experience.
 
-![Visualization of precision navigation](images/precision_navigation.png)  
-*Figure 31: Visualization of precision navigation*  
-*(Page 39)*
-
-![Dynamic Data Integration](images/dynamic_data_integration.png)  
-*Figure 32: Dynamic Data Integration: Visualizing Traffic and Weather in Real-Time*  
-*(Page 40)*
-
-![Navigating the future](images/navigating_future.png)  
-*Figure 33: Navigating the future with the Ultimate EV Mapper*  
-*(Page 41)*
 
 ## References
 
