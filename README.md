@@ -42,15 +42,9 @@ A* operates by maintaining a priority queue of nodes to explore, prioritizing th
 
 The algorithm continuously expands the most promising node until it reaches the goal, ensuring the shortest path is found.
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; margin-right: 10px;">
-    <img src="images/heuristics.png" alt="Heuristics" style="width:50%;"/>
-  </div>
-  <div style="flex: 1; margin-left: 10px;">
-    <img src="images/code.png" alt="Code" style="width:50%;"/>
-  </div>
-</div>
-
+WaveElem                   |  A* Search
+:-------------------------:|:-------------------------:
+![](images/heuristics.png)  |  ![](images/code.png)
 
 ### A* Animated Graphics
 
