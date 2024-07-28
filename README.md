@@ -63,13 +63,16 @@ While A* is the primary algorithm used, we also implemented Dijkstra’s algorit
 We implemented several methods to ensure user inputs are valid and provide helpful feedback when they are not. These methods are crucial for a smooth user experience and are handled within `m2.cpp`.
 
 ![Entry warning for Invalid Street Intersection Names](images/err1.png)  
-*Figure 16: Entry warning for Invalid Street Intersection Names*  
+*Entry warning for Invalid Street Intersection Names*  
 
 ![Autocomplete suggestions](images/err2.png)  
-*Figure 17: Autocomplete suggestions when a partial street intersection name is entered*  
+*Autocomplete suggestions when a partial street intersection name is entered*  
 
 ![Error message for multiple street intersections](images/err3.png)  
-*Figure 18: Error message for multiple street intersections*  
+*Error message for multiple street intersections*  
+
+![Help message](images/help.png)
+*Instructions given when help button is clicked*
 
 ## Special Features
 
@@ -77,7 +80,7 @@ We implemented several methods to ensure user inputs are valid and provide helpf
 
 One of our key features is locating the nearest EV charging station based on the user's current location or input. This feature is integrated within `m3.cpp`, which focuses on real-time data integration.
 
-![Closest EV Charging Station](images/closest_ev_station.png)  
+![Closest EV Charging Station](images/charging.png)  
 *Figure 20: Visual of closest EV station and highlighted intersection*  
 *(Page 23)*
 
@@ -85,7 +88,7 @@ One of our key features is locating the nearest EV charging station based on the
 
 The app provides live updates on wind speed and direction, which can be crucial for planning EV trips. This functionality is also part of the real-time data integration handled in `m3.cpp`.
 
-![Live Wind Speed and Direction](images/wind_speed.png)  
+![Live Wind Speed and Direction](images/wind.png)  
 *Figure 21: Visual of wind speed and direction near highlighted intersection*  
 *(Page 24)*
 
@@ -93,7 +96,7 @@ The app provides live updates on wind speed and direction, which can be crucial 
 
 Real-time weather conditions are integrated into the map to help users plan their journeys better. This feature is implemented in `m3.cpp`.
 
-![Live Weather Conditions](images/weather_conditions.png)  
+![Live Weather Conditions](images/weather.png)  
 *Figure 22: Visual of wind speed and direction near highlighted intersection*  
 *(Page 25)*
 
