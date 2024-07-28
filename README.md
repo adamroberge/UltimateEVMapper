@@ -43,6 +43,18 @@ A* operates by maintaining a priority queue of nodes to explore, prioritizing th
 The algorithm continuously expands the most promising node until it reaches the goal, ensuring the shortest path is found.
 
 ![Heuristics](images/heuristics.png)  
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="images/heuristics.png" alt="Heuristics" style="width:100%"/>
+    <p><em>Figure 1: Heuristics</em>  
+    <br><em>(Page 2)</em></p>
+  </div>
+  <div style="flex: 1; margin-left: 10px;">
+    <img src="images/code.png" alt="Chevrolet Bolt EV" style="width:100%"/>
+    <p><em>Figure 2: Code</em>  
+    <br><em>(Page 3)</em></p>
+  </div>
+</div>
 
 
 ### A* Animated Graphics
