@@ -7,7 +7,6 @@ Welcome to the repository for "The Ultimate EV Mapper". This project showcases t
 - [Introduction](#introduction)
 - [Project Vision](#project-vision)
 - [Path Finding](#path-finding)
-- [Input Validation](#input-validation)
 - [Special Features](#special-features)
 - [The Travelling Courier](#the-travelling-courier)
 - [Comparisons and Future Plans](#comparisons-and-future-plans)
@@ -25,6 +24,10 @@ Our vision for the Ultimate EV Mapper includes providing users with precise navi
 
 
 ## Path Finding
+
+Pathfinding is a fundamental aspect of the Ultimate EV Mapper, as it allows users to find the most efficient routes between various points of interest. The ability to navigate effectively is especially crucial for electric vehicle users, who need to consider factors such as charging station locations and battery range. Our pathfinding system leverages advanced algorithms to ensure optimal routing, taking into account real-time data and user preferences.
+
+
 
 ### Algorithms
 
@@ -109,7 +112,7 @@ Users can view categorized points of interest along their routes, enhancing the 
 
 ## The Travelling Courier
 
-We implemented a multi-Dijkstra algorithm for the travelling courier feature, which optimizes multiple delivery routes simultaneously. This complex feature is handled in `m4.cpp` and `m4_new.cpp`.
+We implemented a multi-Dijkstra algorithm for the travelling courier feature, which optimizes multiple delivery routes simultaneously. This complex feature is handled in `m4.cpp`.
 
 ![Multi Dijkstra Algorithm](images/multi.png)  
 *Code snippet of multi-Dijkstra algorithm*  
@@ -120,7 +123,7 @@ We implemented a multi-Dijkstra algorithm for the travelling courier feature, wh
 
 We compared our pathfinding algorithms with those used by competitors like Google Maps and Waze. The comparison highlights the strengths of our approach, particularly in terms of EV-specific features.
 
-![Comparison table between our competitors and our map](images/comparison_table.png)  
+![Comparison table between our competitors and our map](images/compare.png)  
 *Comparison table between our competitors and our map*  
 
 ### Future Plans
@@ -139,7 +142,5 @@ The Ultimate EV Mapper aims to revolutionize the way electric vehicle users navi
 
 
 ## References
-
-For a complete list of references and further reading, please see the last page of the PDF.
 
 Thank you for visiting our repository!
