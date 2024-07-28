@@ -120,7 +120,7 @@ We implemented a multi-Dijkstra algorithm for the travelling courier feature, wh
 
 We compared our pathfinding algorithms with those used by competitors like Google Maps and Waze. The comparison highlights the strengths of our approach, particularly in terms of EV-specific features.
 
-![Comparison table between our competitors and our map](images/comparison_table.png)  
+![Comparison table between our competitors and our map](images/compare.png)  
 *Comparison table between our competitors and our map*  
 
 ### Future Plans
