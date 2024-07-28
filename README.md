@@ -46,44 +46,30 @@ WaveElem                   |  A* Search
 :-------------------------:|:-------------------------:
 ![](images/heuristics.png)  |  ![](images/code.png)
 
-### A* Animated Graphics
+#### Path Finding 
+Pathfinding is a critical feature of the Ultimate EV Mapper, enabling users to find the most efficient routes between two points. Our pathfinding algorithm is primarily based on the A* search algorithm, known for its efficiency and accuracy in determining the shortest path. In scenarios where heuristic information might not be available or accurate, we also implement Dijkstra’s algorithm to ensure robustness.
 
-We created animated graphics to illustrate the A* algorithm in action, showing how it navigates from the starting point to the destination. This visualization helps in understanding the efficiency and effectiveness of our pathfinding solution.
+![Path Finding](images/path_finding.png)  
 
-![A* Animated Graphics](images/a_star_graphics.png)  
-*Figure 9: A* Animated Graphics*  
 
-### Code Snippets
-
-Our implementation includes various code snippets that are crucial to the pathfinding functionality:
-- **WaveElem Struct**: Defined in `globals.h`, this struct is used in the wavefront expansion during pathfinding.
-- **AStarSearch**: Implemented in `m2.cpp`, this function is the core of our A* algorithm, handling the search process and finding the optimal path.
-
-![Ultimate EV Mapper](images/ultimate_ev_mapper.png)  
-*Figure 12: Ultimate EV Mapper*  
-*(Page 15)*
 
 ### Dijkstra’s Algorithm
 
 While A* is the primary algorithm used, we also implemented Dijkstra’s algorithm for scenarios where the heuristic information might not be available or accurate. Dijkstra’s algorithm ensures we can still find the shortest path by exploring all possible routes equally, which can be useful in more complex routing scenarios like the Travelling Courier problem.
 
-## Input Validation
 
 ### Methods of Input Validation
 
 We implemented several methods to ensure user inputs are valid and provide helpful feedback when they are not. These methods are crucial for a smooth user experience and are handled within `m2.cpp`.
 
-![Entry warning for Invalid Street Intersection Names](images/invalid_street_intersection.png)  
+![Entry warning for Invalid Street Intersection Names](images/err1.png)  
 *Figure 16: Entry warning for Invalid Street Intersection Names*  
-*(Page 18)*
 
-![Autocomplete suggestions](images/autocomplete_suggestions.png)  
+![Autocomplete suggestions](images/err2.png)  
 *Figure 17: Autocomplete suggestions when a partial street intersection name is entered*  
-*(Page 19)*
 
-![Error message for multiple street intersections](images/error_message.png)  
+![Error message for multiple street intersections](images/err3.png)  
 *Figure 18: Error message for multiple street intersections*  
-*(Page 20)*
 
 ## Special Features
 
