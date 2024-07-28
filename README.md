@@ -81,32 +81,31 @@ We implemented several methods to ensure user inputs are valid and provide helpf
 One of our key features is locating the nearest EV charging station based on the user's current location or input. This feature is integrated within `m3.cpp`, which focuses on real-time data integration.
 
 ![Closest EV Charging Station](images/charging.png)  
-*Figure 20: Visual of closest EV station and highlighted intersection*  
-*(Page 23)*
+*Visual of closest EV station and highlighted intersection*  
+
 
 ### Live Wind Speed and Direction
 
 The app provides live updates on wind speed and direction, which can be crucial for planning EV trips. This functionality is also part of the real-time data integration handled in `m3.cpp`.
 
 ![Live Wind Speed and Direction](images/wind.png)  
-*Figure 21: Visual of wind speed and direction near highlighted intersection*  
-*(Page 24)*
+*Visual of wind speed and direction near highlighted intersection*  
+
 
 ### Live Weather Conditions
 
 Real-time weather conditions are integrated into the map to help users plan their journeys better. This feature is implemented in `m3.cpp`.
 
 ![Live Weather Conditions](images/weather.png)  
-*Figure 22: Visual of wind speed and direction near highlighted intersection*  
-*(Page 25)*
+*Visual of wind speed and direction near highlighted intersection*  
+
 
 ### Points of Interest
 
 Users can view categorized points of interest along their routes, enhancing the travel experience. This feature, implemented in `m3.cpp`, adds an extra layer of utility for users.
 
-![Points of Interest](images/points_of_interest.png)  
-*Figure 23: Points of Interest Categorized And Displayed*  
-*(Page 26)*
+![Points of Interest](images/poi.png)  
+*Points of Interest Categorized And Displayed*  
 
 ## The Travelling Courier
 
