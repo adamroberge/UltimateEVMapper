@@ -7,7 +7,6 @@ Welcome to the repository for "The Ultimate EV Mapper". This project showcases t
 - [Introduction](#introduction)
 - [Project Vision](#project-vision)
 - [Path Finding](#path-finding)
-- [Input Validation](#input-validation)
 - [Special Features](#special-features)
 - [The Travelling Courier](#the-travelling-courier)
 - [Comparisons and Future Plans](#comparisons-and-future-plans)
