@@ -23,9 +23,6 @@ The Ultimate EV Mapper is designed to provide comprehensive navigation for elect
 
 Our vision for the Ultimate EV Mapper includes providing users with precise navigation, real-time data integration, and various special features that set our app apart from existing solutions.
 
-![Vision for the Ultimate EV Mapper](images/vision.png)  
-*Figure 7: Vision for the Ultimate EV Mapper*  
-*(Page 9)*
 
 ## Path Finding
 
@@ -45,9 +42,8 @@ A* operates by maintaining a priority queue of nodes to explore, prioritizing th
 
 The algorithm continuously expands the most promising node until it reaches the goal, ensuring the shortest path is found.
 
-![Algorithms](images/algorithms.png)  
-*Figure 8: Algorithms*  
-*(Page 12)*
+![Heuristics](images/heuristics.png)  
+
 
 ### A* Animated Graphics
 
@@ -68,7 +64,7 @@ Our implementation includes various code snippets that are crucial to the pathfi
 
 ### Dijkstra’s Algorithm
 
-While A* is the primary algorithm used, we also implemented Dijkstra’s algorithm in `m4.cpp` and `m4_new.cpp` for scenarios where the heuristic information might not be available or accurate. Dijkstra’s algorithm ensures we can still find the shortest path by exploring all possible routes equally, which can be useful in more complex routing scenarios like the Travelling Courier problem.
+While A* is the primary algorithm used, we also implemented Dijkstra’s algorithm for scenarios where the heuristic information might not be available or accurate. Dijkstra’s algorithm ensures we can still find the shortest path by exploring all possible routes equally, which can be useful in more complex routing scenarios like the Travelling Courier problem.
 
 ## Input Validation
 
