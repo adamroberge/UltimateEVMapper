@@ -1,6 +1,6 @@
 # The Ultimate EV Mapper
 
-Welcome to the repository for "The Ultimate EV Mapper". This project showcases the functionalities and features of our EV mapping application, developed as part of our coursework at the University of Toronto.
+Welcome to the repository for "The Ultimate EV Mapper". This project showcases the functionalities and features of our EV mapping application, developed as part of our coursework at the University of Toronto. Please note that I cannot upload the actual code due to the University of Toronto's academic integrity regulations.
 
 ## Table of Contents
 
