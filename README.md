@@ -112,7 +112,7 @@ Users can view categorized points of interest along their routes, enhancing the 
 
 ## The Travelling Courier
 
-We implemented a multi-Dijkstra algorithm for the travelling courier feature, which optimizes multiple delivery routes simultaneously. This complex feature is handled in `m4.cpp` and `m4_new.cpp`.
+We implemented a multi-Dijkstra algorithm for the travelling courier feature, which optimizes multiple delivery routes simultaneously. This complex feature is handled in `m4.cpp`.
 
 ![Multi Dijkstra Algorithm](images/multi.png)  
 *Code snippet of multi-Dijkstra algorithm*  
