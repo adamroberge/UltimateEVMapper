@@ -44,10 +44,10 @@ The algorithm continuously expands the most promising node until it reaches the 
 
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
-    <img src="images/heuristics.png" alt="Heuristics" style="width:100%"/>
+    <img src="images/heuristics.png" alt="Heuristics" style="width:50%"/>
   </div>
   <div style="flex: 1; margin-left: 10px;">
-    <img src="images/code.png" alt="Code" style="width:100%"/>
+    <img src="images/code.png" alt="Code" style="width:50%"/>
   </div>
 </div>
 
